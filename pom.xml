@@ -16,7 +16,6 @@ xsi:schemaLocation="http://ma... http://maven.apache.org/xsd/maven-4.0.0.xsd">
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.9.6</version>
             <configuration>
                <source>${jdk.level}</source>
                <target>${jdk.level}</target>
@@ -26,7 +25,6 @@ xsi:schemaLocation="http://ma... http://maven.apache.org/xsd/maven-4.0.0.xsd">
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.9.6</version>
             <configuration>
                <suiteXmlFiles>
               <suiteXmlFile>patienttests.xml</suiteXmlFile>
